@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class GreeterTest {
 
   private Greeter greeter = new Greeter();
 
@@ -14,4 +13,4 @@ public class GreeterTest {
     assertThat(greeter.sayHello(), containsString("Bye"));
   }
 
-}
+
